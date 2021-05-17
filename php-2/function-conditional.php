@@ -106,6 +106,25 @@
         // palindrome("nababan") ; // true
         // palindrome("jambaban"); // false
         // palindrome("racecar"); // true
+
+        echo "<h3> Coba ujian </h3>";
+
+        function pagar_bintang($integer){
+            $tmp="";
+            for ($i = 0; $i <= $integer;i++){
+                for ($j = 0; $j <= $i, j++){
+                    if($i%2==0){
+                        $tmp += "*";
+                    } else {
+                        $tmp += "#"
+                    }
+                    echo $tmp;
+                }
+            }
+        }
+
+        pagar_bintang(5);
+
     ?>
 </body>
 </html>
